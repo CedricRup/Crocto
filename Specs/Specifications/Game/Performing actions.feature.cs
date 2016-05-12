@@ -65,14 +65,12 @@ namespace Specs.Specifications.Game
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("When a villager is working on an action, the workload of this action goes down")]
-        [NUnit.Framework.IgnoreAttribute("Ignored scenario")]
         [NUnit.Framework.CategoryAttribute("US003")]
         public virtual void WhenAVillagerIsWorkingOnAnActionTheWorkloadOfThisActionGoesDown()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("When a villager is working on an action, the workload of this action goes down", new string[] {
-                        "US003",
-                        "ignore"});
-#line 5
+                        "US003"});
+#line 4
 this.ScenarioSetup(scenarioInfo);
 #line hidden
             TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
@@ -84,16 +82,16 @@ this.ScenarioSetup(scenarioInfo);
             table1.AddRow(new string[] {
                         "Tame a demonic rodent",
                         "1"});
-#line 7
+#line 6
  testRunner.Given("a ritual named \"Crocto\" with the following actions:", ((string)(null)), table1, "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
                         "Villager"});
             table2.AddRow(new string[] {
                         "Alice"});
-#line 13
+#line 12
  testRunner.And("a village named \"Podunk\" inhabited by", ((string)(null)), table2, "And ");
-#line 17
+#line 16
  testRunner.And("the village \"Podunk\" must perform the \"Crocto\" ritual", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table3 = new TechTalk.SpecFlow.Table(new string[] {
@@ -102,7 +100,7 @@ this.ScenarioSetup(scenarioInfo);
             table3.AddRow(new string[] {
                         "Alice",
                         "Hunt an elephant"});
-#line 19
+#line 18
  testRunner.When("the \"Podunk\" village plan for the day is:", ((string)(null)), table3, "When ");
 #line hidden
             TechTalk.SpecFlow.Table table4 = new TechTalk.SpecFlow.Table(new string[] {
@@ -114,7 +112,7 @@ this.ScenarioSetup(scenarioInfo);
             table4.AddRow(new string[] {
                         "Tame a demonic rodent",
                         "1"});
-#line 23
+#line 22
  testRunner.Then("the \"Podunk\" village has the following remaining actions to do:", ((string)(null)), table4, "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -129,7 +127,7 @@ this.ScenarioSetup(scenarioInfo);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("When nobody is doing an action, the workload of this action does not vary", new string[] {
                         "US003",
                         "ignore"});
-#line 30
+#line 29
 this.ScenarioSetup(scenarioInfo);
 #line hidden
             TechTalk.SpecFlow.Table table5 = new TechTalk.SpecFlow.Table(new string[] {
@@ -138,22 +136,22 @@ this.ScenarioSetup(scenarioInfo);
             table5.AddRow(new string[] {
                         "Hunt an elephant",
                         "2"});
-#line 32
+#line 31
  testRunner.Given("a ritual named \"Crocto\" with the following actions:", ((string)(null)), table5, "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table6 = new TechTalk.SpecFlow.Table(new string[] {
                         "Villager"});
             table6.AddRow(new string[] {
                         "Alice"});
-#line 36
+#line 35
  testRunner.And("a village named \"Podunk\" inhabited by", ((string)(null)), table6, "And ");
-#line 40
+#line 39
  testRunner.And("the village \"Podunk\" must perform the \"Crocto\" ritual", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table7 = new TechTalk.SpecFlow.Table(new string[] {
                         "Villager",
                         "Action"});
-#line 42
+#line 41
  testRunner.When("the \"Podunk\" village plan for the day is:", ((string)(null)), table7, "When ");
 #line hidden
             TechTalk.SpecFlow.Table table8 = new TechTalk.SpecFlow.Table(new string[] {
@@ -162,7 +160,7 @@ this.ScenarioSetup(scenarioInfo);
             table8.AddRow(new string[] {
                         "Hunt an elephant",
                         "2"});
-#line 45
+#line 44
  testRunner.Then("the \"Podunk\" village has the following remaining actions to do:", ((string)(null)), table8, "Then ");
 #line hidden
             this.ScenarioCleanup();
@@ -177,7 +175,7 @@ this.ScenarioSetup(scenarioInfo);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("A action is done when its workload reach 0", new string[] {
                         "US003",
                         "ignore"});
-#line 52
+#line 51
 this.ScenarioSetup(scenarioInfo);
 #line hidden
             TechTalk.SpecFlow.Table table9 = new TechTalk.SpecFlow.Table(new string[] {
@@ -189,16 +187,16 @@ this.ScenarioSetup(scenarioInfo);
             table9.AddRow(new string[] {
                         "Summon a storm",
                         "1"});
-#line 54
+#line 53
  testRunner.Given("a ritual named \"Crocto\" with the following actions:", ((string)(null)), table9, "Given ");
 #line hidden
             TechTalk.SpecFlow.Table table10 = new TechTalk.SpecFlow.Table(new string[] {
                         "Villager"});
             table10.AddRow(new string[] {
                         "Alice"});
-#line 59
+#line 58
  testRunner.And("a village named \"Podunk\" inhabited by", ((string)(null)), table10, "And ");
-#line 63
+#line 62
  testRunner.And("the village \"Podunk\" must perform the \"Crocto\" ritual", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
             TechTalk.SpecFlow.Table table11 = new TechTalk.SpecFlow.Table(new string[] {
@@ -207,7 +205,7 @@ this.ScenarioSetup(scenarioInfo);
             table11.AddRow(new string[] {
                         "Alice",
                         "Summon a storm"});
-#line 65
+#line 64
  testRunner.When("the \"Podunk\" village plan for the day is:", ((string)(null)), table11, "When ");
 #line hidden
             TechTalk.SpecFlow.Table table12 = new TechTalk.SpecFlow.Table(new string[] {
@@ -216,7 +214,7 @@ this.ScenarioSetup(scenarioInfo);
             table12.AddRow(new string[] {
                         "Hunt an elephant",
                         "2"});
-#line 69
+#line 68
  testRunner.Then("the \"Podunk\" village has the following remaining actions to do:", ((string)(null)), table12, "Then ");
 #line hidden
             this.ScenarioCleanup();

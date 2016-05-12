@@ -1,7 +1,6 @@
 ﻿Feature: Working on an action
 
 @US003
-@ignore
 Scenario: When a villager is working on an action, the workload of this action goes down
 
 	Given a ritual named "Crocto" with the following actions:

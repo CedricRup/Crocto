@@ -15,7 +15,7 @@ namespace Specs.Steps
             client = context.WebClient;
         }
 
-        //[When(@"the ""(.*)"" village plan for the day is:")]
+        [When(@"the ""(.*)"" village plan for the day is:")]
         public void GivenTheVillagePlanForTheDayIs(string village, Table table)
         {
             ActionPlan actionPlan = new ActionPlan {Actions = table.CreateSet<PlannedAction>().ToList()};

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using WebApi.Models.ActionPlans;
 using WebApi.Models.Rituals;
 
 namespace WebApi.Models.Villages
@@ -9,5 +10,10 @@ namespace WebApi.Models.Villages
         public List<string> Villagers { get; set; }
 
         public Ritual Ritual { get; set; }
+
+        public virtual void GiveActionPlan(ActionPlan actionPlan)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

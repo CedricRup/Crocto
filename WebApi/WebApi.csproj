@@ -118,6 +118,7 @@
   <ItemGroup>
     <Compile Include="App_Start\IoC.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ActionPlanController.cs" />
     <Compile Include="Models\ActionPlans\ActionPlan.cs" />
     <Compile Include="Models\ActionPlans\PlannedAction.cs" />
     <Compile Include="Models\HttpHelpers\HttpResponseHelper.cs" />
